@@ -9,6 +9,7 @@ namespace ConsoleApp1
 	abstract	class Animal 
 	{
 	public  string Name { get; set; }
+
 		public virtual void Eat()
 		{
 			Console.WriteLine(Name + " eats meat");

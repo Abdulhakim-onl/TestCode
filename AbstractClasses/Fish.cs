@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-	interface IAnimal
+	abstract class Fish : Animal, IAnimal 
 	{
-		void Eat();
-		void Sleep();
-		void Voice();
 	}
 }

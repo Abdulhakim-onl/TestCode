@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.Animals
+namespace ConsoleApp1
 {
-	interface ICanFly
+ abstract	class Birds: Animal, IAnimal
 	{
-		void Fly();
 	}
 }

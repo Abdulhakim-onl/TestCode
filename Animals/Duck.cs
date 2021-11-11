@@ -6,26 +6,35 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-	class Delphin: Fish, ICanSwim
+	class Duck: Birds, ICanSwim, ICanWalk, ICanFly
 	{
-		public Delphin(string name)
+		public Duck(string name)
 		{
 			Name = name;
+		}
+
+		public void Fly()
+		{
+			Console.WriteLine(Name + " can fly");
 		}
 
 		public void Swim()
 		{
 			Console.WriteLine(Name + " can swim");
 		}
+		public void Walk()
+		{
+			Console.WriteLine(Name + " can Walk");
+		}
 
 		public override void Voice()
 		{
-			Console.WriteLine(Name + ": *special lips");
+			Console.WriteLine(Name + ": cry-cry");
 		}
 
 		public override void Eat()
 		{
-			Console.WriteLine(Name + " eat a wide variety of fishes");
+			Console.WriteLine(Name + " eat a insects");
 		}
 	}
 }

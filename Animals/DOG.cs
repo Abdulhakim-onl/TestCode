@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-	class DOG : Zveri , ICanRun, ICanSwim
+	class DOG : Zveri , ICanWalk, ICanSwim
 	{
 
 		public DOG(string name)
@@ -14,9 +14,9 @@ namespace ConsoleApp1
 			Name = name;
 		}
 
-		public void Run()
+				public void Walk()
 		{
-			Console.WriteLine(Name + " can run");
+			Console.WriteLine(Name + " can walk");
 		}
 
 		public void Swim()

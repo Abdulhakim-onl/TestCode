@@ -66,14 +66,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClasses\Birds.cs" />
+    <Compile Include="AbstractClasses\Fish.cs" />
     <Compile Include="Animals\Delphin.cs" />
     <Compile Include="Animals\DOG.cs" />
     <Compile Include="AbstractClasses\Zveri.cs" />
     <Compile Include="Animal.cs" />
-    <Compile Include="Animals\ICanFly.cs" />
-    <Compile Include="Animals\ICanRun.cs" />
-    <Compile Include="Animals\ICanSwim.cs" />
-    <Compile Include="IAnimal.cs" />
+    <Compile Include="Animals\Duck.cs" />
+    <Compile Include="Interfaces\ICanFly.cs" />
+    <Compile Include="Interfaces\ICanWalk.cs" />
+    <Compile Include="Interfaces\ICanSwim.cs" />
+    <Compile Include="Interfaces\IAnimal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

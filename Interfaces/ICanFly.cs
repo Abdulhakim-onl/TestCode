@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-	interface ICanRun
+	interface ICanFly
 	{
-		void Run();
+		void Fly();
 	}
 }
